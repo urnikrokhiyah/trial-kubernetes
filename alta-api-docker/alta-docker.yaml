@@ -15,7 +15,7 @@ spec:
         app: alta-api-docker
     spec:
       containers:
-        - image: docker.io/urnikrokhiyah/alta-api-docker:latest
+        - image: docker.io/urnikrokhiyah/alta-api-docker:v1
           name: alta-api-docker
           resources:
             limits:
